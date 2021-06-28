@@ -6,7 +6,7 @@ on:
 
 jobs:
   kics-job:
-    runs-on: docker
+    runs-on: ubuntu-latest
     name: kics-action
     steps:
       - name: Checkout repo
