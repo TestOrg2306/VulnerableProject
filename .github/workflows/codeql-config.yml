@@ -4,8 +4,8 @@ name: "My CodeQL config"
 #  - uses: security-and-quality
 queries:
   - name: Use @GeekMasher CWE-532 query
-    uses: ./.github/workflows/codeql/SensativeInformation.ql
-  
+    uses: GeekMasher/security-queries/java/CWE-532/SensativeInformation.ql@main
+
 paths-ignore: 
   - src/node_modules
   - '**/*.test.js'
