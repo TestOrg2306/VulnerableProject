@@ -4,7 +4,7 @@ name: "My CodeQL config"
 #  - uses: security-and-quality
 queries:
   - name: Use CWE-532 query
-    uses: ./.github/codeql/SensativeInformation.ql
+    uses: ./.github/workflows/codeql/SensativeInformation.ql
   
 paths-ignore: 
   - src/node_modules
