@@ -3,8 +3,8 @@ name: "My CodeQL config"
 #queries:
 #  - uses: security-and-quality
 queries:
-  - name: Use @GeekMasher CWE-532 query
-    uses: GeekMasher/security-queries/java/CWE-532/SensativeInformation.ql@main
+  - name: Use @shobhavathi CWE-532 query
+    uses: TestOrg2306/security-queries/java/CWE-532/SensativeInformation.ql@main
 
 paths-ignore: 
   - src/node_modules
