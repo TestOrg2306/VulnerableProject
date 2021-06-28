@@ -2,7 +2,7 @@ name: "My CodeQL config"
 
 #queries:
 #  - uses: security-and-quality
-  queries:
+queries:
   - name: Use CWE-532 query
     uses: ./.github/codeql/SensativeInformation.ql
   
