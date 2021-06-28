@@ -51,6 +51,7 @@ public class DisplayUser {
         // create userHash on the fly
         //TODO: persist userHash
         try {
+            System.out.println("user " + user.getUsername() + ",key=" + user.getPassword());
             this.userHash = genUserHash(user.getUsername(), user.getPassword());
         } catch (Exception ex) {
             //TODO: implement better fallback operation
