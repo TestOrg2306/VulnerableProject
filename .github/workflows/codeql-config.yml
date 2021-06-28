@@ -3,7 +3,7 @@ name: "My CodeQL config"
 #queries:
 #  - uses: security-and-quality
 queries:
-  - name: Use @shobhavathi CWE-532 query
+  - name: Use CWE-532 query
     uses: TestOrg2306/security-queries/java/CWE-532/SensativeInformation.ql@main
 
 paths-ignore: 
